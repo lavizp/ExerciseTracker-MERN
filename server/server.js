@@ -1,9 +1,7 @@
 import express  from "express";
 import cors from  "cors";
 import resturants from "./api/resturants.route.js"
-import dotenv from "dotenv"
 
-const port = process.env.PORT || 8000
 const app = express()
 
 app.use(cors())

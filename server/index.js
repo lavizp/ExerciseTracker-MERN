@@ -8,6 +8,7 @@ const MongoClient = mongodb.MongoClient
 
 const port = process.env.PORT || 8000
 
+    console.log(process.env.port)
     app.listen(port, ()=>{
         console.log(`listening on port ${port}`)
     });

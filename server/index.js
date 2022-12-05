@@ -1,6 +1,7 @@
 import app from "./server.js";
 import mongodb from "mongodb"
 import dotenv from "dotenv"
+import bodyParser from 'body-parser'
 import restaurantsDAO from "./dao/restaurantsDAO.js"
 
 dotenv.config()

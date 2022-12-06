@@ -1,6 +1,6 @@
 import express  from "express";
 import cors from  "cors";
-import gymsRoute from "./api/gyms.route.js"
+import gymsRoute from "./api/resturants.route.js"
 
 const app = express()
 import bodyParser from 'body-parser'
